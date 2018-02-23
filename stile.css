@@ -1,0 +1,93 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+  color: red;
+  font-size: 50px;
+}
+.white{
+  color:white;
+}
+h3{
+  font-size: 30px;
+}
+.fa{
+  font-size: 30px;
+}
+
+.blocco{
+  width: 100vw;
+  height: 400px;
+  background: white;
+}
+.bg-blu{
+  background-color: #1A2B4C;
+}
+.bg-rosso{
+  background-color: #D3171E;
+}
+.bg-azzurro{
+  background-color: #60B8E2;
+}
+.testata{
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: 100%;
+  height: 100px;
+}
+.margine{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
+.testo, .img{
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+
+.testo-contenuto{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.testo-contenuto h2, h3, .fa{
+  padding: 10px;
+}
+
+.bg-kane{
+  background-image: url(Harry-Kane1.png);
+}
+.bg-cavani{
+  background-image: url(cavani.png);
+  background-size:cover;
+
+}
+.bg-salah{
+  background-image: url(salah.png);
+  background-size: cover;
+}
+.bg-immobile{
+  background-image: url(immobile.png);
+  background-size: cover;
+}
+.bg-aguero{
+  background-image: url(aguero.png);
+  background-size: cover;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
